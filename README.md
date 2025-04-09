@@ -112,7 +112,7 @@ Las herramientas que se neceita para poder ejecutar el proyecto son:
 
 
 
-Clonar este  respository  en la carpeta que deseas:
+Clonar este respository en la carpeta que deseas:
 
 ```sh
 cd FORM-LINTERS
@@ -152,16 +152,19 @@ Para ejecutar el proyecto, ejecute el siguiente comando:
 
 Para ejecutar la prueba, ejecute el siguiente comando o endpoint:
 
-```sh
-python -m unittest test_module.TestClass
-python -m unittest test_module
 
 ```
-
+    To test the Stylelint linter:
+    npx stylelint "**/*.{css,scss}"
+    To test the Webhint:
+    npx hint .
+    To test the ESLint linter:
+    npx eslint .
+```
 
 ### Deployment
 
-Deploy using your local enviroment
+Deploy using your local environment
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -188,7 +191,7 @@ If you like this project please give one start
 
 ## 👏 Acknowledgements <a name="acknowledgements"></a>
 
-I would like to thank my learning teammates  and Sena Instructor
+I would like to thank my learning teammates and Sena Instructor
 
 ## 📃 License <a name="license"></a>
 
